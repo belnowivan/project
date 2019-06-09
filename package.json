@@ -1,0 +1,26 @@
+{
+  "name": "proj123w3",
+  "version": "1.0.0",
+  "description": "it is brain games lol",
+  "main": "index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "babel-node": "babel-node",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
+  },
+  "bin": {
+     "brain-games": "dist/bin/brain-games.js"
+   },
+  "author": "ivan",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-stage-0": "^7.0.0"
+  }
+}
