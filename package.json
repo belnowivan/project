@@ -2,7 +2,7 @@
   "name": "proj123w3",
   "version": "1.0.2",
   "description": "it is brain games lol",
-  "main": "index.js",
+  - "main": "index.js",
   "files": [
     "dist"
   ],
